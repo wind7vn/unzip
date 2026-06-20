@@ -10,14 +10,14 @@ It automatically detects and supports two modes of extraction:
 
 ## 📦 Pre-built Releases (No Go/Python Installation Required)
 
-You can download the pre-compiled binaries directly from the [GitHub Releases Page](https://github.com/wind7vn/unzip/releases/tag/v1.0.0):
+You can download the pre-compiled binaries directly from the [GitHub Releases Page](https://github.com/wind7vn/extractor/releases/tag/v1.0.0):
 
 | OS | Architecture | Download Link |
 | :--- | :--- | :--- |
-| **🍎 macOS** | Apple Silicon (M1/M2/M3/M4) | [extractor-mac-arm64](https://github.com/wind7vn/unzip/releases/download/v1.0.0/extractor-mac-arm64) |
-| **🍎 macOS** | Intel | [extractor-mac-amd64](https://github.com/wind7vn/unzip/releases/download/v1.0.0/extractor-mac-amd64) |
-| **🐧 Linux** | 64-bit | [extractor-linux-amd64](https://github.com/wind7vn/unzip/releases/download/v1.0.0/extractor-linux-amd64) |
-| **🪟 Windows** | 64-bit | [extractor-windows-amd64.exe](https://github.com/wind7vn/unzip/releases/download/v1.0.0/extractor-windows-amd64.exe) |
+| **🍎 macOS** | Apple Silicon (M1/M2/M3/M4) | [extractor-mac-arm64](https://github.com/wind7vn/extractor/releases/download/v1.0.0/extractor-mac-arm64) |
+| **🍎 macOS** | Intel | [extractor-mac-amd64](https://github.com/wind7vn/extractor/releases/download/v1.0.0/extractor-mac-amd64) |
+| **🐧 Linux** | 64-bit | [extractor-linux-amd64](https://github.com/wind7vn/extractor/releases/download/v1.0.0/extractor-linux-amd64) |
+| **🪟 Windows** | 64-bit | [extractor-windows-amd64.exe](https://github.com/wind7vn/extractor/releases/download/v1.0.0/extractor-windows-amd64.exe) |
 
 ### Quick Start with Pre-built Releases:
 
@@ -57,8 +57,8 @@ You can download the pre-compiled binaries directly from the [GitHub Releases Pa
 
 If you prefer to compile from source or run via Python, clone the repository first:
 ```bash
-git clone https://github.com/wind7vn/unzip.git
-cd unzip
+git clone https://github.com/wind7vn/extractor.git
+cd extractor
 ```
 
 ### 🐹 Go Source Build (Prerequisites)

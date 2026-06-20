@@ -1,3 +1,3 @@
-module unzip
+module extractor
 
 go 1.20
