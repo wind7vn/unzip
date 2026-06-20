@@ -10,23 +10,23 @@ It automatically detects and supports two modes of extraction:
 
 ## 📦 Pre-built Releases (No Go/Python Installation Required)
 
-If you don't want to install Go or Python, you can use the pre-built binaries located in the `/releases` folder of this repository (or download them from the GitHub Releases tab):
+You can download the pre-compiled binaries directly from the [GitHub Releases Page](https://github.com/wind7vn/unzip/releases/tag/v1.0.0):
 
-| OS | Architecture | Binary Name |
+| OS | Architecture | Download Link |
 | :--- | :--- | :--- |
-| **🍎 macOS** | Apple Silicon (M1/M2/M3/M4) | [extractor-mac-arm64](./releases/extractor-mac-arm64) |
-| **🍎 macOS** | Intel | [extractor-mac-amd64](./releases/extractor-mac-amd64) |
-| **🐧 Linux** | 64-bit | [extractor-linux-amd64](./releases/extractor-linux-amd64) |
-| **🪟 Windows** | 64-bit | [extractor-windows-amd64.exe](./releases/extractor-windows-amd64.exe) |
+| **🍎 macOS** | Apple Silicon (M1/M2/M3/M4) | [extractor-mac-arm64](https://github.com/wind7vn/unzip/releases/download/v1.0.0/extractor-mac-arm64) |
+| **🍎 macOS** | Intel | [extractor-mac-amd64](https://github.com/wind7vn/unzip/releases/download/v1.0.0/extractor-mac-amd64) |
+| **🐧 Linux** | 64-bit | [extractor-linux-amd64](https://github.com/wind7vn/unzip/releases/download/v1.0.0/extractor-linux-amd64) |
+| **🪟 Windows** | 64-bit | [extractor-windows-amd64.exe](https://github.com/wind7vn/unzip/releases/download/v1.0.0/extractor-windows-amd64.exe) |
 
 ### Quick Start with Pre-built Releases:
 
 #### 🍎 macOS
-1. Download the correct binary for your Mac architecture (e.g. `extractor-mac-arm64` for M1/M2/M3/M4).
+1. Download `extractor-mac-arm64` (for M1/M2/M3/M4) or `extractor-mac-amd64` (for Intel Macs).
 2. Open Terminal, make the binary executable, and register the alias:
    ```bash
-   chmod +x ./releases/extractor-mac-arm64
-   echo "alias extractor=\"\$PWD/releases/extractor-mac-arm64\"" >> ~/.zshrc
+   chmod +x extractor-mac-arm64
+   echo "alias extractor=\"\$PWD/extractor-mac-arm64\"" >> ~/.zshrc
    source ~/.zshrc
    ```
 3. Run the tool: `extractor path/to/file.dat`
@@ -35,11 +35,11 @@ If you don't want to install Go or Python, you can use the pre-built binaries lo
 1. Download `extractor-linux-amd64`.
 2. Open Terminal, make it executable, and register the alias:
    ```bash
-   chmod +x ./releases/extractor-linux-amd64
-   echo "alias extractor=\"\$PWD/releases/extractor-linux-amd64\"" >> ~/.bashrc
+   chmod +x extractor-linux-amd64
+   echo "alias extractor=\"\$PWD/extractor-linux-amd64\"" >> ~/.bashrc
    source ~/.bashrc
    ```
-   *(Or copy it to your path: `sudo cp ./releases/extractor-linux-amd64 /usr/local/bin/extractor`)*
+   *(Or copy it to your path: `sudo cp extractor-linux-amd64 /usr/local/bin/extractor`)*
 3. Run the tool: `extractor path/to/file.dat`
 
 #### 🪟 Windows
